@@ -73,7 +73,9 @@ image, svg, img {
 #end.active,
 #start.active,
 #path_01.active,
-#path_02.active {
+#path_02.active,
+#path_03.active,
+#path_04.active {
   display: block;
 }
 
@@ -81,7 +83,8 @@ image, svg, img {
 #start.inactive,
 #path_01.inactive,
 #path_02.inactive,
-#path_03.inactive {
+#path_03.inactive,
+#path_04.inactive {
   display: none;
 }
 
