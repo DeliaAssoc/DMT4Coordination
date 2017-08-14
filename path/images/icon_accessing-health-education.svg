@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10319 489.308 152.723 152.723">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0524b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_339" data-name="Group 339" transform="translate(-10629)">
+    <g id="Group_338" data-name="Group 338">
+      <g id="Group_125" data-name="Group 125" transform="translate(310 489.308)">
+        <ellipse id="Ellipse_120" data-name="Ellipse 120" class="cls-1" cx="76.361" cy="76.361" rx="76.361" ry="76.361"/>
+      </g>
+      <g id="browser" transform="translate(335.766 530.928)">
+        <path id="Path_1627" data-name="Path 1627" class="cls-2" d="M96.4,59.3H1.587A1.587,1.587,0,0,0,0,60.884V130.6a1.587,1.587,0,0,0,1.587,1.587H96.4a1.587,1.587,0,0,0,1.587-1.587V60.884A1.587,1.587,0,0,0,96.4,59.3Zm-1.587,3.175V74.146H3.175V62.472ZM3.175,129.013V77.32H94.816v51.693H3.175Z" transform="translate(0 -59.297)"/>
+        <path id="Path_1628" data-name="Path 1628" class="cls-2" d="M100.253,89.477h67.509a1.587,1.587,0,0,0,1.587-1.587V81.963a1.587,1.587,0,0,0-1.587-1.587H100.253a1.587,1.587,0,0,0-1.587,1.587v5.926A1.587,1.587,0,0,0,100.253,89.477Zm1.587-5.926h64.334V86.3H101.841Z" transform="translate(-77.784 -75.915)"/>
+        <path id="Path_1629" data-name="Path 1629" class="cls-2" d="M26.44,97.554a1.59,1.59,0,1,0-1.122-.466A1.6,1.6,0,0,0,26.44,97.554Z" transform="translate(-19.593 -86.954)"/>
+        <path id="Path_1630" data-name="Path 1630" class="cls-2" d="M50.68,97.554a1.59,1.59,0,1,0-1.122-.466A1.593,1.593,0,0,0,50.68,97.554Z" transform="translate(-38.703 -86.954)"/>
+        <path id="Path_1631" data-name="Path 1631" class="cls-2" d="M74.92,97.554a1.587,1.587,0,1,0,0-3.175,1.587,1.587,0,1,0,0,3.175Z" transform="translate(-57.813 -86.954)"/>
+        <g id="Rectangle_307" data-name="Rectangle 307" class="cls-3" transform="translate(14.948 22.497)">
+          <rect class="cls-4" width="68.679" height="19.623" rx="3"/>
+          <rect class="cls-5" x="1.5" y="1.5" width="65.679" height="16.623" rx="1.5"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_308" data-name="Rectangle 308" class="cls-2" width="67.453" height="3.679" rx="1.84" transform="translate(351.941 577.953)"/>
+    <rect id="Rectangle_309" data-name="Rectangle 309" class="cls-2" width="67.453" height="3.679" rx="1.84" transform="translate(351.941 584.085)"/>
+    <rect id="Rectangle_310" data-name="Rectangle 310" class="cls-2" width="67.453" height="3.679" rx="1.84" transform="translate(351.941 591.444)"/>
+  </g>
+</svg>
