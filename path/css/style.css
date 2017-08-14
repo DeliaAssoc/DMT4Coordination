@@ -302,25 +302,30 @@ image, svg, img {
   display: block;
   background-color: #FA5048;
   background-position: center center;
-  background-size: 50%;
+  background-size: 100%;
   width: 150px;
   height: 150px;
   border-radius: 100%;
   margin: 0 auto;
 }
 
-.icon.team {
-  background-image: url( '../images/stethoscope_white_icon.svg' );
+.icon.accessing {
+  background-image: url( '../images/icon_accessing-health-education.svg' );
   background-repeat: no-repeat;
 }
 
-.icon.plan {
-  background-image: url( '../images/threeheads_white_icon.svg' );
+.icon.tailoring {
+  background-image: url( '../images/icon_tailoring-health-education.svg' );
+  background-repeat: no-repeat;
+}
+
+.icon.tracking {
+  background-image: url( '../images/icon_tailoring-health-education.svg' );
   background-repeat: no-repeat;
 }
 
 .icon.patient {
-  background-image: url( '../images/patientbed_white_icon.svg' );
+  background-image: url( '../images/icon_patient_experience.svg' );
   background-repeat: no-repeat;
 }
 
