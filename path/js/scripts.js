@@ -347,6 +347,16 @@ function anim_p01s07_1()
   anim_p1_s7_1 = init_anim( 'anim_p01s07', '../bodymovin/p01s07/01/data.json' );
 
   // Trigger animation
+  anim_p1_s7_1.addEventListener( 'data_ready', function(){
+    anim_p1_s7_1.goToAndStop( 1, true );
+  });
+}
+
+function anim_p01s07_2()
+{
+  // Activate screen/animation and tooltip
+  setTimeout( function() { $( '#tip_p01s07-2' ).toggleClass( 'inactive active' ); }, 750 );
+
   // Start animation after 1250ms
   setTimeout( function(){
     anim_p1_s7_1.play();
@@ -356,10 +366,10 @@ function anim_p01s07_1()
   }, 1250);
 }
 
-function anim_p01s07_2()
+function anim_p01s07_3()
 {
   // Activate screen/animation and tooltip
-  setTimeout( function() { $( '#tip_p01s07-2' ).toggleClass( 'inactive active' ); }, 750 );
+  setTimeout( function() { $( '#tip_p01s07-3' ).toggleClass( 'inactive active' ); }, 750 );
   
   // Initialize animation
   anim_p1_s7_2 = init_anim( 'anim_p01s07', '../bodymovin/p01s07/02/data.json' );
@@ -373,7 +383,6 @@ function anim_p01s07_2()
     });
   }, 1250);
 }
-
 
 
 // Slide 7
@@ -850,13 +859,22 @@ function anim_p04_5()
     $( '#tip_p01s07-2 .link' ).on( 'click', function(){
 
       // Deactivate animation and tooltip
-      $( '#anim_p01s07' ).toggleClass( 'active inactive' );
       $( '#tip_p01s07-2' ).toggleClass( 'active inactive' );
+
+      // Call next screen/animation
+      anim_p01s07_3();
+    });
+
+    // Check for "next" click
+    $( '#tip_p01s07-3 .link' ).on( 'click', function(){
+
+      // Deactivate animation and tooltip
+      $( '#anim_p01s07' ).toggleClass( 'active inactive' );
+      $( '#tip_p01s07-3' ).toggleClass( 'active inactive' );
 
       // Call next screen/animation
       anim_p01s08();
     });
-
 
   //END
   //Check for "next" click

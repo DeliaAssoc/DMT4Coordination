@@ -227,6 +227,22 @@ image, svg, img {
     border: none;
 }
 
+.tip.top-arrow.left-side {
+  background-position: 10% top;
+}
+
+.tip.bottom-arrow.left-side {
+  background-position: 10% bottom;
+}
+
+.tip.top-arrow.right-side {
+  background-position: 90% top;
+}
+
+.tip.bottom-arrow.right-side {
+  background-position: 90% bottom;
+}
+
 .tip .bottom .prev:hover,
 .tip .bottom .prev:focus {
   text-decoration: underline;
