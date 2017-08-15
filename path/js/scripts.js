@@ -1691,7 +1691,7 @@ function anim_p04_5()
     changePagination( this );
 
     //Activate Section 04 tip & animation
-    anim_p01s04_1();
+    anim_p01s04();
   });
 
 
@@ -1720,6 +1720,28 @@ function anim_p04_5()
 
 
 
+  //Section 07 - Clicked
+  $( '#path_01_progress .seven' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 06 tip & animation
+    anim_p01s07_1();
+  });
+
+
+
+  //Section 08 - Clicked
+  $( '#path_01_progress .eight' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 06 tip & animation
+    anim_p01s08();
+  });
+
 
 
 
@@ -1728,7 +1750,78 @@ function anim_p04_5()
 // PATH 02 //
 /////////////
 
-  // NO PAGINATION FOR PATH 02
+  //Section 01 - Clicked
+  $( '#path_02_progress .one' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 01 tip, animation, number
+    anim_p02s1();
+
+  });
+
+
+
+  //Section 02 - Clicked
+  $( '#path_02_progress .two' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 02 tip & animation
+    anim_p02s2();
+  });
+
+
+
+  //Section 03 - Clicked
+  $( '#path_02_progress .three' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 03 tip & animation
+    anim_p02s3();
+    
+  });
+
+
+
+  //Section 04 - Clicked
+  $( '#path_02_progress .four' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 04 tip & animation
+    anim_p02s4_1();
+  });
+
+
+
+  //Section 05 - Clicked
+  $( '#path_02_progress .five' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 05 tip & animation
+    anim_p02s5();
+  });
+
+
+
+  //Section 06 - Clicked
+  $( '#path_02_progress .six' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    //Activate Section 06 tip & animation
+    anim_p02s6();
+  });
+
 
 
 
@@ -1767,7 +1860,7 @@ function anim_p04_5()
     changePagination( this );
 
     // Call animation and tip
-    anim_p03_3_1();
+    anim_p03_3();
   });
 
   //Section 04 - Clicked
@@ -1780,45 +1873,65 @@ function anim_p04_5()
     anim_p03_4();
   });
 
+
+
+
+
+
+
+
+/////////////
+// PATH 04 //
+/////////////
+
+  //Section 01 - Clicked
+  $( '#path_04_progress .one' ).on( 'click', function(){
+    
+    // Change pagination
+    changePagination( this );
+
+    // Call animation and tip
+    anim_p04_1();
+  });
+
+  //Section 02 - Clicked
+  $( '#path_04_progress .two' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    // Call animation and tip
+    anim_p04_2_1();
+  });
+
+  //Section 03 - Clicked
+  $( '#path_04_progress .three' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    // Call animation and tip
+    anim_p04_3();
+  });
+
+  //Section 04 - Clicked
+  $( '#path_04_progress .four' ).on( 'click', function(){
+
+    // Change pagination
+    changePagination( this );
+
+    // Call animation and tip
+    anim_p04_4();
+  });
+
   //Section 05 - Clicked
-  $( '#path_03_progress .five' ).on( 'click', function(){
+  $( '#path_04_progress .five' ).on( 'click', function(){
 
     // Change pagination
     changePagination( this );
 
     // Call animation and tip
-    anim_p03_5();
-  });
-
-
-   //Section 07 - Clicked
-  $( '#path_03_progress .six' ).on( 'click', function(){
-
-    // Change pagination
-    changePagination( this );
-
-    // Call animation and tip
-    anim_p03_6();
-  });
-
-  //Section 07 - Clicked
-  $( '#path_03_progress .seven' ).on( 'click', function(){
-
-    // Change pagination
-    changePagination( this );
-
-    // Call animation and tip
-    anim_p03_7();
-  });
-
-  //Section 07 - Clicked
-  $( '#path_03_progress .eight' ).on( 'click', function(){
-
-    // Change pagination
-    changePagination( this );
-
-    // Call animation and tip
-    anim_p03_8();
+    anim_p04_5();
   });
 
 });
