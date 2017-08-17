@@ -93,7 +93,7 @@ image, svg, img {
   transition-delay: 10s !important;
 }
 
-.tip.small .inner {
+.tip.slim .inner {
   max-width: 180px;
 }
 
@@ -658,12 +658,142 @@ image, svg, img {
 
 /* Section 01 */
 
+#tip_p01s01 {
+    left: 400px;
+    bottom: 8px;
+}
+
+/* Section 02 */
+
+#tip_p01s02-1 {
+    left: 240px;
+    bottom: 160px;
+}
+
+#tip_p01s02-2 {
+    left: 245px;
+    bottom: 190px; 
+}
+
+#tip_p01s02-3 {
+    left: 250px;
+    bottom: 220px;
+}
+
+/* Section 03 */
+
+#tip_p01s03 {
+    left: 350px;
+    bottom: 135px;
+}
+
+/* Section 04 */
+
+#tip_p01s04 {
+    left: 200px;
+    bottom: 210px;
+}
+
+/* Section 05 */
+
+#tip_p01s05-1 {
+    left: 315px;
+    bottom: 153px;
+}
+
+#tip_p01s05-2 {
+    left: 465px;
+    bottom: 100px;
+}
+
+/* Section 06 */
+
+#tip_p01s06 {
+    left: 315px;
+    bottom: 295px;
+}
+
+/* Section 07 */
+
+#tip_p01s07-1 {
+    left: 405px;
+    bottom: 187px;
+}
+
+#tip_p01s07-2 {
+    left: 175px;
+    bottom: 185px;
+}
+
+#tip_p01s07-3 {
+    left: 490px;
+    bottom: 175px;
+}
+
+/* Section 08 */
+
+#tip_p01s08 {
+    left: 400px;
+    bottom: 85px;
+}
 
 
 /* === PATH 02 === */
 
 
 /* Section 01 */
+
+#tip_p02s01 {
+    left: 450px;
+    bottom: 170px;
+}
+
+/* Section 02 */
+
+#tip_p02s02 {
+    left: 545px;
+    bottom: 135px;
+}
+
+/* Section 03 */
+
+#tip_p02s03 {
+    left: -5px;
+    bottom: 15px;
+}
+
+/* Section 04 */
+
+#tip_p02s04-1 {
+    left: 550px;
+}
+
+#tip_p02s04-2 {
+    left: 445px;
+    bottom: 157px;
+}
+
+/* Section 05 */
+
+#tip_p02s05 {
+    left: 240px;
+    bottom: 157px;
+}
+
+/* Section 06 */
+
+#tip_p02s06 {
+    left: 350px;
+    bottom: 141px;
+}
+
+
+
+
+
+
+
+
 
 
 
