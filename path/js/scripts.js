@@ -405,7 +405,7 @@ function anim_p01s07_2( prev )
     anim_p1_s7_1.addEventListener( 'loopComplete', function(){
       anim_p1_s7_1.goToAndStop( 180, true );
     });
-  }, 1250);
+  }, 2000);
 }
 
 function anim_p01s07_3( prev )
@@ -518,7 +518,7 @@ function anim_p02s3()
     anim_p2_s3.addEventListener( 'loopComplete', function(){
       anim_p2_s3.goToAndStop( 110, true );
     });
-  }, 1250);
+  }, 1500);
 };
 
 
