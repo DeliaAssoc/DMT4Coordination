@@ -40,7 +40,7 @@ function init_anim(selector, data) {
   
   var animData = {
     wrapper: document.getElementById(selector),
-    animType: 'html',
+    animType: 'svg',
     loop: true,
     prerender: true,
     autoplay: false,
