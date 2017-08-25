@@ -88,6 +88,32 @@ image, svg, img {
   display: none;
 }
 
+fieldset {
+  position: relative;
+}
+
+.please-select {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #A03123;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #ffffff;
+  bottom: 60px;
+}
+
+.please-select.inactive {
+  display: none;
+}
+
+.please-select.active {
+  display: block;
+}
+
 .tip.animated {
   -webkit-transition-delay: 10s !important;
   transition-delay: 10s !important;
@@ -452,7 +478,7 @@ image, svg, img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  transform: matrix3d(1.35, 0, 0, 0, 0, 1.35, 0, 0, 0, 0, 1, 0, 0.2, 0, 0, 1);
+  /*transform: matrix3d(1.35, 0, 0, 0, 0, 1.35, 0, 0, 0, 0, 1, 0, 0.2, 0, 0, 1);*/
 }
 
 .tablet .image {
@@ -859,8 +885,7 @@ image, svg, img {
 }
 
 #end .image img {
-  width: 110%;
-  padding-top: 140px;
+  width: 130%;
   padding-bottom: 60px;
 }
 
@@ -1133,7 +1158,7 @@ image, svg, img {
   /* ========= */
 
   #start .inner label {
-    width: 275px;
+    width: 260px;
   }
 
   #start .inner label > span {
@@ -1343,5 +1368,16 @@ image, svg, img {
     display: block;
     width: 69%;
     margin: 0 auto;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  #start .inner label span {
+    background-image: url('../images/radio-button.png');
+  }
+
+  #start .inner label input[type=radio]:checked+span {
+    background-image: url('../images/radio-button-checked.png');
   }
 }
